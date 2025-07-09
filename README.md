@@ -22,18 +22,28 @@ tmux ls               # List all sessions
 ### panes
 
 split horisontially   ->> prefix- "
+***
 split vertically      ->> prefix- %
+***
 move between panes    ->> prefix- arrows
+***
 kill the current pane ->> prefix- x
+***
 
 ### windows
 
 create new window  ->> c
+***
 next window        ->> n
+***
 prev window        ->> p
+***
 list windows       ->> w
+***
 rename curr window ->> ,
+***
 kill window        ->> &
+***
 
 
 ## Sessions
